@@ -4,7 +4,8 @@ module.exports = {
       "./1-index.html",
       "./2-index.html",
       "./3-nav_index.html",
-      "./4-flexbox_index.html"
+      "./4-flexbox_index.html",
+      "./5-gridflex_index.html"
     ],
 
     theme: {
