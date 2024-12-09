@@ -1,0 +1,15 @@
+// 8-mixin_margins.scss
+
+// Define the mixin for margin left and right
+@mixin margin_lef_right($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+body {
+  @include margin_lef_right(10px, 10px);
+}
+
+div {
+  @include margin_lef_right(15px, 15px);
+}
